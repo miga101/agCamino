@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Agmaxf03 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP51A5.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Agmaxf03.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Lab\Gene\Camag.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP51A5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP51A6.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Camag.pdb" /debug /machine:I386 /out:"Debug/Camag.exe" /pdbtype:sept 
+.\Debug\Camag.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP51A6.TMP"
+<h3>Output Window</h3>
+Compiling...
+Camag.cpp
+E:\Lab\Gene\Camag.cpp(83) : warning C4101: 'i' : unreferenced local variable
+E:\Lab\Gene\Camag.cpp(162) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(193) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(326) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(372) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(397) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(409) : warning C4018: '<' : signed/unsigned mismatch
+E:\Lab\Gene\Camag.cpp(459) : warning C4101: 'opcion' : unreferenced local variable
+E:\Lab\Gene\Camag.cpp(459) : warning C4101: 'err' : unreferenced local variable
+E:\Lab\Gene\Camag.cpp(459) : warning C4101: 'i' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Agmaxf03.bsc"  .\Debug\Camag.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Camag.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>
